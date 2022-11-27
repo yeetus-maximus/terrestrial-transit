@@ -1,0 +1,41 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={SITE_TITLE} />
+		<main>
+			
+			<h2>I use arch, BTW</h2>
+			<p>
+				I use arch, BTW. I have no life because I am a neckbeard arch enthusiast. You wouldn't know that I used arch linux if I didn't tell you that I did
+			</p>
+			<p>
+				🌰🌰🌰🌰🥜🥜🥜🥜
+			</p>
+			<h2><u>Projects: </u></h2>
+			
+			<p><a href = 'http://archfx0.xyz:3000/ArchFX0/aepp'> AE++(Arch Enhanced Plus Plus) </a></p>
+			<h3>Features: </h3>
+			<ul>
+				<li>Minimalist</li>
+				<li>No Bloat</li>
+				<li>Vroomular</li>
+				<li>Pragmatic</li>
+				<li>Perhaps rolling release formate3</li>
+			</ul>
+
+			<br>
+			
+		</main>
+		<Footer />
+	</body>
+</html>
